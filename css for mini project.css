@@ -1,0 +1,140 @@
+/* Body Styles */
+body {
+    background-image: url("gifgit.gif");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-color: rgb(225, 225, 238); /* Fallback color for areas without image */
+}
+
+/* Tribute Section */
+#tribute-data4 p:last-of-type {
+    font-size: 10px; /* Adjust as needed */
+    color: rgb(207, 39, 39);
+}
+
+/* Red Cross Image Styles */
+#redcross { 
+    width: 300px;
+    height: 200px;
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid black; /* Image border */
+    position: relative;
+    top: 10px; /* Adjust the vertical position */
+}
+
+/* Caption Styles */
+.caption {
+    display: block; /* Full-width like a paragraph */
+    font-size: 10px; /* Small text size */
+    text-align: center; /* Centered text */
+    margin-top: 5px;
+    color: rgb(207, 39, 39);
+    position: relative;
+    top: 10px;
+    right: 30px; /* Adjust positioning */
+}
+
+/* Header and Navigation Styles */
+header {
+    background-color: #000000;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #ff6347; /* Change color on hover */
+}
+
+/* Tribute Title Styling */
+#tribute-data .title-princessDiana {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Footer styles */
+footer {
+    background-color: #0a0303;
+    color: rgb(255, 251, 251);
+    text-align: center;
+    padding: 20px 0;
+    position: relative; right: 50px;
+    bottom: 0px;
+    width: 100%;
+    top: 130px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+    }
+}
+
+  
